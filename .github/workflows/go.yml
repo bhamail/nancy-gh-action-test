@@ -35,3 +35,11 @@ jobs:
 
     - name: Test
       run: go test -v .
+
+    - name: GenLock
+      run: go list -json -m all > Gopkg.lock
+
+    - name: Scan
+      uses: sonatype-nexus-community/nancy-github-action@master
+      with:
+        target: Gopkg.lock
