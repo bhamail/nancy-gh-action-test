@@ -1,4 +1,4 @@
-![gh-action-test](https://github.com/bhamail/gh-action-test/workflows/Go/badge.svg)
+![gh-action-test](https://github.com/bhamail/gh-action-test/workflows/go/badge.svg)
 
 GitHub Actions play project
 ===========================
