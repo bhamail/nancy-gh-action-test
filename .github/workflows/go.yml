@@ -28,8 +28,8 @@ jobs:
     - name: Test
       run: go test -v .
 
-    - name: GenLock
-      run: go list -json -m all > Gopkg.lock
+    - name: WriteGoList
+      run: go list -json -m all > go.list
 
     - name: Scan
       uses: sonatype-nexus-community/nancy-github-action@811b6670e343fc48fde273906404adaac9bd3885
