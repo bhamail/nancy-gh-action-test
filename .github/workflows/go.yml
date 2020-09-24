@@ -2,9 +2,9 @@ name: Go
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
 
@@ -32,4 +32,4 @@ jobs:
       run: go list -json -m all > go.list
 
     - name: Scan
-      uses: sonatype-nexus-community/nancy-github-action@811b6670e343fc48fde273906404adaac9bd3885
+      uses: sonatype-nexus-community/nancy-github-action@main
