@@ -4,6 +4,8 @@
 Nancy GitHub Actions play project
 ===========================
 
+Runs the [nancy-github-action](https://github.com/sonatype-nexus-community/nancy-github-action). 
+
 ToDo
 ----
 * Replace the commit hash below with a reference to either a release version or the `main` branch
