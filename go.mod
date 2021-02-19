@@ -1,6 +1,6 @@
 module gh-action-test
 
-go 1.15
+go 1.16
 
 require (
 	// uncomment the version of gophish below to test vulenerability detection
