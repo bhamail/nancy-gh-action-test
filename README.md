@@ -31,9 +31,8 @@ $ act
 
 ToDo
 ----
-* Replace the commit hash below with a reference to either a release version or the `main` branch
-in `.github/workflows/go.yml`:
-
-    ```
-    uses: sonatype-nexus-community/nancy-github-action@811b6670e343fc48fde273906404adaac9bd3885
-    ```
+* ~~Done: Replace the commit hash below with a reference to either a release version or the `main` branch
+in `.github/workflows/go.yml`:~~
+  ```yaml
+  uses: sonatype-nexus-community/nancy-github-action@811b6670e343fc48fde273906404adaac9bd3885
+  ```
