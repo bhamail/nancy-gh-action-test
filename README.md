@@ -36,3 +36,5 @@ in `.github/workflows/go.yml`:~~
   ```yaml
   uses: sonatype-nexus-community/nancy-github-action@811b6670e343fc48fde273906404adaac9bd3885
   ```
+
+[//]: # (Change to trigger build)
